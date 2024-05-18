@@ -13,7 +13,7 @@
   </head>
   <body>
     <h1>your current position</h1>
-    
+    <div id="coordinates"></div>
     <div id="map"></div>
 
     <link
@@ -50,7 +50,8 @@
         const lng = pos.coords.longitude;
         const accuracy = pos.coords.accuracy;
 
-       
+        const coordinates = `Latitude: ${lat}, Longitude: ${lng}`;
+        document.getElementById("coordinates").innerText = coordinates;
 
         if (marker) {
           map.removeLayer(marker);
