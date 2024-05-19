@@ -29,6 +29,7 @@ Looking that our country is gearing up to host upcoming international events, we
 
 ### Evaluating our approach : 
 * RAG :
+  
 | Feature             | distilbert-base-nli-stsb-quora-ranking | all-mpnet-base-v2  |
 |---------------------|----------------------------------------|--------------------|
 | Context Window      | 768 tokens                             | 384 tokens         |
@@ -36,6 +37,7 @@ Looking that our country is gearing up to host upcoming international events, we
 we have used distilbert-base-nli-stsb-quora-ranking because it has a bigger number of input tokens (768). 
 
 * LLM :
+  
 | Feature         | Gemma-7b-IT                                      | Llama3                                          |
 |-----------------|--------------------------------------------------|-------------------------------------------------|
 | Model Size      | 7 billion parameters                             | 3.5 billion parameters                          |
