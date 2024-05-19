@@ -9,8 +9,6 @@
   - [Video Demo](#video-demo)
   - [Presentation Slides](#presentation-slides)
 
-
-
 ## Morchid 🇲🇦 :
 
 Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features:
@@ -26,6 +24,27 @@ Looking that our country is gearing up to host upcoming international events, we
 ### Screenshots from the App:
 
 ![ScreenShot](/ressources/UI_Dark.png)
+
+### Evaluating our approach :
+
+- RAG :
+
+| Feature        | distilbert-base-nli-stsb-quora-ranking | all-mpnet-base-v2 |
+| -------------- | -------------------------------------- | ----------------- |
+| Context Window | 768 tokens                             | 384 tokens        |
+
+we have used distilbert-base-nli-stsb-quora-ranking because it has a bigger number of input tokens (768).
+
+- LLM :
+
+| Feature         | Gemma-7b-IT          | Llama3                 |
+| --------------- | -------------------- | ---------------------- |
+| Model Size      | 7 billion parameters | 3.5 billion parameters |
+| Context Window  | 2048 tokens          | 1024 tokens            |
+| Maximum Length  | 2048 tokens          | 1024 tokens            |
+| Vocabulary Size | 50,257               | 50,257                 |
+
+we have used Gemma-7b-it because in my case, it gives more accurate responses in comparaison with Llama3.
 
 ### Tech/Framework used:
 
@@ -52,6 +71,5 @@ https://github.com/AyaBenkabbour/Morchid/assets/113483524/dcd86df5-da0f-457e-8db
 ### Presentation Slides
 
 [presentation_3BYTES.pdf](https://github.com/AyaBenkabbour/Morchid/files/15368385/presentation_3BYTES.pdf)
-
 
 _Morchid isn't just an app, it's an experience_
