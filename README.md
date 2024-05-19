@@ -1,6 +1,6 @@
 ## Morchid 🇲🇦 :
 
-Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features :
+Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features:
 
 - Real-Time location tracking : as you move through the city, Morchid detects your location and narrates stories and details about nearby landmarks, sourced directly from locals.
 
@@ -23,10 +23,17 @@ Looking that our country is gearing up to host upcoming international events, we
 - Open Steet Map
 - Google Geolocation API
 
+![Archi1](/ressources/archi1.jpeg)
+![Archi2](/ressources/archi2.jpeg)
+
 ### Addictional features (comming 🔜 )
 
 This model will provide exclusive, insider information that enriches the tourist experience. This data will be curated from the lived experiences of locals and tourists to ensure that every user gets the full authentic experience.
 
 We plan to fund further development through 2 business schemes: tourist passes for a day a week or a month, so you only pay for your visit. We also plan to reach out to restaurants, hotels and businesses for advertising purpose
+
+### Video Demo:
+
+<video controls src="ressources/video_demo.mp4" title="demo"></video>
 
 _Morchid isn't just an app, it's an experience_
