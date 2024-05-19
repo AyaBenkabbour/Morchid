@@ -34,6 +34,8 @@ We plan to fund further development through 2 business schemes: tourist passes f
 
 ### Video Demo:
 
-<video controls src="ressources/video_demo.mp4" title="demo"></video>
+
+https://github.com/AyaBenkabbour/Morchid/assets/113483524/dcd86df5-da0f-457e-8db3-a14e70076098
+
 
 _Morchid isn't just an app, it's an experience_
