@@ -9,8 +9,6 @@
   - [Video Demo](#video-demo)
   - [Presentation Slides](#presentation-slides)
 
-
-
 ## Morchid 🇲🇦 :
 
 Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features:
@@ -37,30 +35,29 @@ Looking that our country is gearing up to host upcoming international events, we
 - Leaflet js (to retrieve current Geo. data)
 - Open Steet Map
 - Google Geolocation API
-![Archi1](/ressources/archi1.jpeg)
-![Archi2](/ressources/archi2.jpeg)
+  ![Archi1](/ressources/archi1.jpeg)
+  ![Archi2](/ressources/archi2.jpeg)
 
-### Evaluating our approach : 
-* RAG :
-  
-| Feature             | distilbert-base-nli-stsb-quora-ranking | all-mpnet-base-v2  |
-|---------------------|----------------------------------------|--------------------|
-| Context Window      | 768 tokens                             | 384 tokens         |
+### Evaluating our approach :
 
-we have used distilbert-base-nli-stsb-quora-ranking because it has a bigger number of input tokens (768). 
+- RAG :
 
-* LLM :
-  
-| Feature         | Gemma-7b-IT                                      | Llama3                                          |
-|-----------------|--------------------------------------------------|-------------------------------------------------|
-| Model Size      | 7 billion parameters                             | 3.5 billion parameters                          |
-| Context Window  | 2048 tokens                                      | 1024 tokens                                     |
-| Maximum Length  | 2048 tokens                                      | 1024 tokens                                     |
-| Vocabulary Size | 50,257                                           | 50,257                                          |
+| Feature        | distilbert-base-nli-stsb-quora-ranking | all-mpnet-base-v2 |
+| -------------- | -------------------------------------- | ----------------- |
+| Context Window | 768 tokens                             | 384 tokens        |
 
-we have used Gemma-7b-it because in my case, it gives more accurate responses in comparaison with Llama3. 
+we have used distilbert-base-nli-stsb-quora-ranking because it has a bigger number of input tokens (768).
 
+- LLM :
 
+| Feature         | Gemma-7b-IT          | Llama3                 |
+| --------------- | -------------------- | ---------------------- |
+| Model Size      | 7 billion parameters | 3.5 billion parameters |
+| Context Window  | 2048 tokens          | 1024 tokens            |
+| Maximum Length  | 2048 tokens          | 1024 tokens            |
+| Vocabulary Size | 50,257               | 50,257                 |
+
+we have used Gemma-7b-it because in my case, it gives more accurate responses in comparaison with Llama3.
 
 ### Addictional features (comming 🔜 )
 
@@ -74,6 +71,6 @@ https://github.com/AyaBenkabbour/Morchid/assets/113483524/dcd86df5-da0f-457e-8db
 
 ### Presentation Slides
 
-<embed src="./ressouces/presentation_3BYTES.pdf" width="100%" height="500px" type="application/pdf">
+<embed src="./ressources/presentation_3BYTES.pdf" width="100%" height="500px" type="application/pdf">
 
 _Morchid isn't just an app, it's an experience_
