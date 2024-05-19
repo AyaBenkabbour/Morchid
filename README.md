@@ -1,3 +1,16 @@
+## Table of Contents
+
+- [Morchid 🇲🇦](#morchid-)
+  - [Motivation](#motivation)
+  - [Screenshots from the App](#screenshots-from-the-app)
+  - [Tech/Framework used](#techframework-used)
+  - [Evaluating our approach](#evaluating-our-approach--)
+  - [Additional features (coming soon)](#additional-features-coming-soon-)
+  - [Video Demo](#video-demo)
+  - [Presentation Slides](#presentation-slides)
+
+
+
 ## Morchid 🇲🇦 :
 
 Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features:
