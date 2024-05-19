@@ -2,9 +2,9 @@
 
 Morchid is an AI-powered travel companion that provides real-time guidance and culturally rich information as you explore the streets of morocco. Morchid takes advantage of advanced AI technology to leverage two main features :
 
-    Real-Time location tracking : as you move through the city, Morchid detects your location and narrates stories and details about nearby landmarks, sourced directly from locals.
+-Real-Time location tracking : as you move through the city, Morchid detects your location and narrates stories and details about nearby landmarks, sourced directly from locals.
 
-    Interactive Chat Bot : We chose not to bombard our users with information, and instead give them the liberty to ask our AI about any facts they might be interested in.
+Interactive Chat Bot : We chose not to bombard our users with information, and instead give them the liberty to ask our AI about any facts they might be interested in.
 
 ### Motivation:
 
