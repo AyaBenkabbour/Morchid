@@ -19,7 +19,7 @@ Morchid is an AI-powered travel companion that provides real-time guidance and c
 
 ### Motivation:
 
-Looking that our country is gearing up to host upcoming international events, we're looking to jump on the wave and make profit. Tourists in Morocco often find themselves needing a local guide to fully experience the hidden gems of our country. However, relying on human guides can be limiting, expensive, and sometimes even lead to encounters with scammers, which can significantly hinder the experience 🫠.
+Looking that our country is gearing up to host upcoming international events, we're looking to jump on the wave and build awesome tech. Tourists in Morocco often find themselves needing a local guide to fully experience the hidden gems of our country. However, relying on human guides can be limiting, expensive, and sometimes even lead to encounters with scammers, which can significantly hinder the experience 🫠.
 
 ### Screenshots from the App:
 
