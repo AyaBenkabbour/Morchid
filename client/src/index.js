@@ -8,7 +8,7 @@ const root = createRoot(rootElement);
 
 root.render(
   <StrictMode>
-    <h1>Your current postion &lt; 3</h1>
+    <h1>Your current position &lt; 3</h1>
     <App />
   </StrictMode>
 );
