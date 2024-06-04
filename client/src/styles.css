@@ -19,7 +19,7 @@
 /* height of the container */
 .leaflet-container {
   height: 90vh;
-  width: 90%;
+  width: 100%;
   border-radius: 2rem;
 }
 
@@ -34,4 +34,8 @@
   border-radius: 50%;
   font-size: 1.2rem;
   box-shadow: 0 0 0px 5px #fff;
+}
+
+.map_container {
+  width: 100%;
 }
